@@ -5,14 +5,13 @@ export default function Mission() {
     <div className="container">
         <div className="mission-cont">
             <h1 className="titleM">
-                Our Mission
+                <strong>Our Mission</strong>
             </h1>
             <p>
-
+                Yap Yap Yap
             </p>
         </div>
-        <img>
-        
+        <img src ="mush.gif">
         </img>
     </div>
   );
