@@ -4,7 +4,7 @@ import "./header.css";
 
 export default function Header() {
   return (
-    <div>
+    <div className="container">
       <div className="navbar">
         <Logo />
         <h1>Prakriti</h1>

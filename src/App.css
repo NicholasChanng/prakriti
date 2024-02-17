@@ -1,3 +1,12 @@
+section {
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
 :root {
   --brown-800: rgb(88, 47, 14);
   --brown-600: rgb(127, 79, 36);
