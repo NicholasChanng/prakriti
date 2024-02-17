@@ -1,13 +1,8 @@
 body {
   margin: 0;
-  font: 400 14px/1.4 "Author" "Chillax", sans-serif;
+  font: 400 14px/1.4 "Author", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--grey-100);
   scroll-behavior: smooth;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

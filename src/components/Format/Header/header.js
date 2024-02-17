@@ -7,7 +7,7 @@ export default function Header() {
     <div className="container">
       <div className="navbar">
         <Logo />
-        <h1>Prakriti</h1>
+        <h1>PRAKRITI</h1>
         <div>
           <Link>Business Model</Link>
           <Link>Team</Link>
