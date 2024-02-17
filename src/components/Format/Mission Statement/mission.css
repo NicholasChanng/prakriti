@@ -1,44 +1,40 @@
-.mushImg{
-    width: 425px;
-}
-
-.container1{
-    display: flex;
-    justify-content: center;
-    margin: 25px;
-}
-
-.mission-cont{
-    background-color: var(--brown-200);
-    border-radius: 5%;
-    width: 600px;
-    padding: 5px;
-    color:black;
-}
-
-.textM{
-    display: flex;
-    justify-content: center;
-}
-
 .fade-in-section {
     opacity: 0;
-    transform: translateY(20vh);
+    transform: translateY(15vh);
     visibility: hidden;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;
-    display: flex;
-    justify-content: center;
 }
 
 .fade-in-section.is-visible {
     opacity: 1;
     transform: none;
     visibility: visible;
-    display: flex;
-    justify-content: center;
 }
 
 body{
     height: 10000px;
+}
+
+.container1{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-cont{
+    border-radius: 5%;
+    width: 1000px;
+    padding: 5px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.mushImg{
+    width: 450px;
+    height: auto;
 }
