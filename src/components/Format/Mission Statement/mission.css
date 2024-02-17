@@ -1,6 +1,5 @@
 .mushImg{
     width: 425px;
-    height: 20000px;
 }
 
 .container1{
@@ -33,4 +32,7 @@
     opacity: 1;
     transform: none;
     visibility: visible;
+}
+body{
+    height: 10000px;
 }
