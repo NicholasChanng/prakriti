@@ -1,4 +1,4 @@
-import "./header.css";
+import "./mission.css";
 
 export default function Mission() {
   return (
