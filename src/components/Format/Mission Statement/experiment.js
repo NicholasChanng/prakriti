@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(true);
     const domRef = React.useRef();
