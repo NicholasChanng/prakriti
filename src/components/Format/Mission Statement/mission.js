@@ -11,7 +11,7 @@ export default function Mission() {
                 Yap Yap Yap
             </p>
         </div>
-        <img src ="mush.gif"/>
+        <img src="mush.gif" alt="mush" />
     </div>
   );
 }

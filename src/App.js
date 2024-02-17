@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Layout from "../src/components/Format/Layout/layout";
-import Mission from "../src/components/Format/Mission Statement"
+import Mission from "../src/components/Format/Mission Statement/mission"
 
 function App() {
   return (
