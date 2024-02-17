@@ -2,16 +2,16 @@ import "./mission.css";
 
 export default function Mission() {
   return (
-    <div className="container">
+    <div className="container1">
         <div className="mission-cont">
-            <h1 className="titleM">
+            <h1 className="textM">
                 <strong>Our Mission</strong>
             </h1>
-            <p>
+            <p className="textM">
                 Yap Yap Yap
             </p>
         </div>
-        <img src="mush.gif" alt="mush" />
+        <img className="mushImg" src="mush.gif" alt="mush" />
     </div>
   );
 }

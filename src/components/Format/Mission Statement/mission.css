@@ -1,0 +1,22 @@
+.mushImg{
+    width: 425px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.mission-cont{
+    background-color: var(--brown-200);
+    border-radius: 5%;
+    width: 600px;
+    padding: 5px;
+    color:black;
+}
+
+.textM{
+    display: flex;
+    justify-content: center;
+}
