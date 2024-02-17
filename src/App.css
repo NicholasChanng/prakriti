@@ -1,14 +1,3 @@
-@font-face {
-  font-family: "Author";
-  src: url("./assets/fonts/Author_Complete/Fonts/Variable/Author-Variable.ttf")
-    format("ttf");
-}
-
-@font-face {
-  font-family: "Chillax";
-  src: url("./assets/fonts/Chillax_Complete/Fonts/Variable/Chillax-Variable.ttf")
-    format("ttf");
-}
 section {
   height: auto;
 }
