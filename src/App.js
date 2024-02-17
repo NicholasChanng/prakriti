@@ -1,12 +1,10 @@
 import "./App.css";
-import Logo from "./components/logo/logo";
+import { Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
+// import { Layout } from "../;
 
 function App() {
-  return (
-    <div className="App">
-      <Logo />
-    </div>
-  );
+  return <Routes>{/* <Route path="/" element={<Layout />}></Route> */}</Routes>;
 }
 
 export default App;
