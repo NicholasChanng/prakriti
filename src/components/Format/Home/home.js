@@ -80,14 +80,14 @@ export default function Home() {
         <div data-aos="fade-in" className="stats-container container">
           <Pie />
           <div className="numbers-container">
-            <div className="number-stat">
+            <div data-aos="fade-in" className="number-stat">
               <span>$50B</span>Mushroom Market
             </div>
-            <div className="number-stat">
+            <div data-aos="fade-in" className="number-stat">
               <span>6.5M</span>
               tons of rice stock burned each winter
             </div>
-            <div className="number-stat">
+            <div data-aos="fade-in" className="number-stat">
               <span>$250M+</span>potential revenue
             </div>
           </div>
