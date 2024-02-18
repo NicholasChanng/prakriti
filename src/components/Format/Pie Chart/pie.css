@@ -1,3 +1,8 @@
+.pies-containers {
+  display: flex;
+  justify-content: space-between;
+}
+
 .pie-container {
   display: flex;
   justify-content: center;
@@ -36,18 +41,33 @@
   font-size: 40px;
 }
 
-circle {
+#circle1 {
   fill: none;
-  stroke: url(#GradientColor);
+  stroke: url(#GradientColor1);
   stroke-width: 20px;
   stroke-dasharray: 450;
   stroke-dashoffset: 450;
-  animation: anim 2s linear forwards;
+  animation: anim1 2s linear forwards;
 }
 
-@keyframes anim {
+#circle2 {
+  fill: none;
+  stroke: url(#GradientColor2);
+  stroke-width: 20px;
+  stroke-dasharray: 450;
+  stroke-dashoffset: 450;
+  animation: anim2 2s linear forwards;
+}
+
+@keyframes anim1 {
   100% {
     stroke-dashoffset: 72;
+  }
+}
+
+@keyframes anim2 {
+  100% {
+    stroke-dashoffset: 45;
   }
 }
 
