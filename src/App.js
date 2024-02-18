@@ -2,8 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Layout from "../src/components/Format/Layout/layout";
 import Home from "./components/Format/Home/home";
-
-import About from "./components/Format/About/about";
+import About from "./components/Format/About/facts";
 import ContactForm from "./components/Format/Contact/contact";
 
 function App() {
