@@ -5,7 +5,7 @@ import github from "../../../assets/img/github.png";
 
 export default function Footer() {
   return (
-    <section>
+    <section data-aos="fade-in">
       <div className="container footer">
         <div className="footer-logo">
           <Logo />
@@ -15,7 +15,6 @@ export default function Footer() {
           <div className="pages">
             <span>Pages</span>
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
           </div>
           <div className=""></div>

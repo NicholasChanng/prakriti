@@ -51,7 +51,6 @@
 }
 
 .popup {
-  display: flex;
   position: fixed;
   z-index: 999999;
   background-color: var(--green-200);
@@ -73,6 +72,14 @@
 .popup.show-popup {
   visibility: visible;
   opacity: 1;
+}
+
+.popup-container {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
 }
 
 .exit {
@@ -97,4 +104,21 @@
 .x.bottom {
   transform: rotate(-45deg);
   translate: -3px 5px;
+}
+
+.popup-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-description span {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--green-400);
+}
+
+#fire {
+  border-radius: 10px;
+  width: clamp(200px, 70%, 750px);
+  margin: 30px auto;
 }

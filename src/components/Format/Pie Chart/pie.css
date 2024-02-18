@@ -1,0 +1,52 @@
+.pie-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  width: 500px;
+}
+
+.outer {
+  height: 160px;
+  width: 160px;
+  padding: 20px;
+  /* border: 1px solid var(--green-400); */
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.inner {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: inset 0 3px 10px rgb(0 0 0 / 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  font-size: 40px;
+}
+
+circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 450;
+  stroke-dashoffset: 450;
+  animation: anim 2s linear forwards;
+}
+
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 72;
+  }
+}
+
+#pie {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

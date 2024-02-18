@@ -3,6 +3,8 @@ import "./home.css";
 import { React, useState } from "react";
 
 import tree from "../../../assets/img/tree.png";
+import fire from "../../../assets/img/fire.png";
+import Pie from "../Pie Chart/pie";
 
 export default function Home() {
   const [popup, setPopup] = useState(false);
@@ -16,12 +18,12 @@ export default function Home() {
   });
   return (
     <>
-      <section className="mission-statement">
+      <section data-aos="fade-in" className="mission-statement">
         <div className="container">
           <Mission />
         </div>
       </section>
-      <section className="problem-section">
+      <section data-aos="fade-in" className="problem-section">
         <div className="container">
           <div className="problem-area">
             <div className="problem-description">
@@ -56,7 +58,29 @@ export default function Home() {
           <div className="x top"></div>
           <div className="x bottom"></div>
         </div>
+        <div className="popup-container">
+          <div className="popup-description">
+            <span>Making India’s air clean one step at a time.</span>
+            India is the largest area under rice cultivation in the world,
+            harvesting 44.6 Mha annually. Every harvesting season, farmers burn
+            fields to clear rice stubble and start wheat production. Although
+            burning is illegal and hurts the soil, 84% of farmers aren’t even
+            aware of alternatives.
+            <br />
+            <br />
+            Prakriti gives farmers this alternative by providing farmers with
+            knowledge and mycelium to grow and reliably sell rice-straw
+            mushrooms with crop residue, a solution proven across Vietnam, the
+            Philippines, and Cambodia.
+          </div>
+          <img id="fire" src={fire} alt="fire" />
+        </div>
       </div>
+      <section>
+        <div className="container">
+          <Pie />
+        </div>
+      </section>
     </>
   );
 }
