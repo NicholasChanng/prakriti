@@ -25,7 +25,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.navbar-links nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 12px;
+}
+
+.navbar-link {
+  @media (width <= 600px) {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 .navbar-links a {
@@ -50,7 +63,7 @@
 }
 
 .aCool:hover {
- background-position: 0;
+  background-position: 0;
 }
 
 .aCool:hover::before {

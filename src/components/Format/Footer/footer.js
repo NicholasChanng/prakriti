@@ -16,8 +16,14 @@ export default function Footer() {
             <span>Pages</span>
             <Link to="/">Home</Link>
             <Link to="/contact">Contact</Link>
+            <a
+              href="https://drive.google.com/drive/folders/1uO0qqN3DEtPRdGpsAcZNp-p2McN1qR02?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Documentation
+            </a>
           </div>
-          <div className=""></div>
         </div>
         <span className="copyright">
           &copy;{new Date().getFullYear()} PRAKRITIT

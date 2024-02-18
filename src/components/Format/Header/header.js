@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../../Logo/logo";
 import "./header.css";
+import Menu from "./Menu/menu";
 
 export default function Header() {
   return (
@@ -10,12 +11,23 @@ export default function Header() {
         <span>PRAKRITI</span>
       </div>
       <div className="navbar-links">
-        <Link className="aCool" to="/">
-          Home
-        </Link>
-        <Link className="aCool" to="/contact">
-          Contact
-        </Link>
+        <nav>
+          <Link className="aCool navbar-link" to="/">
+            Home
+          </Link>
+          <Link className="aCool navbar-link" to="/contact">
+            Contact
+          </Link>
+          <a
+            className="navbar-link"
+            href="https://drive.google.com/drive/folders/1uO0qqN3DEtPRdGpsAcZNp-p2McN1qR02?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Documentation
+          </a>
+        </nav>
+        <Menu />
       </div>
     </div>
   );

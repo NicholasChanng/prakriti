@@ -21,6 +21,9 @@
 .pages {
   display: flex;
   gap: 10px;
+  @media (width <= 450px) {
+    flex-direction: column;
+  }
 }
 
 .pages a {
