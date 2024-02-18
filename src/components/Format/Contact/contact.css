@@ -49,4 +49,18 @@
     background-color: #0056b3;
     
   }
+
+  .btn {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 250ms, opacity 400ms;
+    opacity: 75%;
+  }
+  
+  .btn:hover{
+    transform: scale(1.15) translateY(-10px); 
+    opacity: 100%;
+  }
   
