@@ -12,7 +12,7 @@ export default function BigCoin(props){
 
 function Facts(props) {
   return (
-    <div>
+    <div className="text">
       {props.content}
     </div>
   );
