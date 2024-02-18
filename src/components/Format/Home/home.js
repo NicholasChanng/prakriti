@@ -5,7 +5,6 @@ import { React, useState } from "react";
 import tree from "../../../assets/img/tree.png";
 import fire from "../../../assets/img/fire.png";
 import Pie from "../Pie Chart/pie";
-import BigCoin from "../Facts/facts";
 
 export default function Home() {
   const [popup, setPopup] = useState(false);
@@ -80,13 +79,18 @@ export default function Home() {
       <section>
         <div className="stats-container container">
           <Pie />
-          <BigCoin
-            content={[
-              "50B Mushroom Market",
-              "6.5M tons of rice stock is burned every winter",
-              "Over 250M dollars of potential revenue",
-            ]}
-          />
+          <div className="numbers-container">
+            <div className="number-stat">
+              <span>$50B</span>Mushroom Market
+            </div>
+            <div className="number-stat">
+              <span>6.5M</span>
+              tons of rice stock burned each winter
+            </div>
+            <div className="number-stat">
+              <span>$250M+</span>potential revenue
+            </div>
+          </div>
         </div>
       </section>
     </>

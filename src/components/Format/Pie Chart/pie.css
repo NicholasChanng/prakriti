@@ -1,6 +1,12 @@
 .pies-containers {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
+  @media (width <= 1120px) {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 .pie-container {

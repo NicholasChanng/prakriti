@@ -137,3 +137,24 @@
   flex-direction: column;
   gap: 30px;
 }
+
+.numbers-container {
+  display: flex;
+  justify-content: space-between;
+  @media (width <= 600px) {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.number-stat {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+
+.number-stat span {
+  font-size: 40px;
+  color: var(--green-800);
+  font-weight: bold;
+}
