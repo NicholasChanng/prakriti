@@ -58,8 +58,8 @@
   left: calc((100dvw - 80dvw) / 2);
   border-radius: 10px;
   width: 80dvw;
-  height: 80dvh;
-  --height: 80dvh;
+  height: var(--height);
+  --height: 90dvh;
   box-shadow: 50px 3px 10px 1000px rgb(0 0 0 / 0.8);
   transition: all 0.5s ease;
 }
