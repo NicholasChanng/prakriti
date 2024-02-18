@@ -1,6 +1,6 @@
 // ContactForm.js
 import React, { useState } from 'react';
-import './contact.css'; // Import your custom CSS file
+import './contact.css';
 
 const ContactForm = () => {
   const [formStatus, setFormStatus] = useState('Send');
