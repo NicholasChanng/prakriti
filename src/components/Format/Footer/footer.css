@@ -32,8 +32,10 @@
   }
 }
 
-.footer-links span {
+.pages span {
+  font-family: "Chillax";
   color: var(--orange-400);
+  font-weight: bold;
 }
 
 .copyright {

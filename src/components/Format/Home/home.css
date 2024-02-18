@@ -1,0 +1,28 @@
+.mission-statement {
+  background-image: url("../../../assets/img/background1.png");
+  background-size: cover;
+  height: 600px;
+}
+
+.problem-section {
+  background-color: var(--green-800);
+  color: white;
+  padding: 10px;
+}
+
+.problem-area {
+  display: flex;
+}
+
+.problem-description {
+  padding: 50px 0;
+}
+
+.problem-description span {
+  font-size: 30px;
+  color: var(--orange-400);
+}
+
+#tree {
+  width: 50%;
+}
