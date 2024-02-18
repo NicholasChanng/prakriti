@@ -80,9 +80,6 @@ export default function Home() {
       <section>
         <div className="stats-container container">
           <Pie />
-<<<<<<< Updated upstream
-          <BigCoin content = {["50B Mushroom Market","6.5M tons of rice stock burned every winter","Over 250M dollars of potential revenue"]}/>  
-=======
           <BigCoin
             content={[
               "50B Mushroom Market",
@@ -90,7 +87,6 @@ export default function Home() {
               "Over 250M dollars of potential revenue",
             ]}
           />
->>>>>>> Stashed changes
         </div>
       </section>
     </>
