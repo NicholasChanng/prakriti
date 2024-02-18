@@ -80,7 +80,7 @@ export default function Home() {
       <section>
         <div className="container">
           <Pie />
-          <BigCoin content = {["50B Mushroom Market","6.5M tons of rice stock is burned every winter","Over 250M dollars of potential revenue"]}/>  
+          <BigCoin content = {["50B Mushroom Market","6.5M tons of rice stock burned every winter","Over 250M dollars of potential revenue"]}/>  
         </div>
       </section>
     </>
