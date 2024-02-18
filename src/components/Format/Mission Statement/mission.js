@@ -8,11 +8,8 @@ export default function Mission() {
         <div className="mission-cont">
             <FadeInSection>
                 <h1 className="textM">
-                    <strong>Our Mission</strong>
+                    <strong>Green Fields, Clear Skies: Empowering Growth & Feeding the Future.</strong>
                 </h1>
-                <p className="textM">
-                    Yap Yap Yap
-                </p>
             </FadeInSection>
         </div>
             <FadeInSection>
