@@ -31,15 +31,15 @@ const ContactForm = () => {
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" className="form-control" required />
+          <input type="text" id="name" className="form-control" required placeholder = "Type Name Here" />
         </div>
         <div className="form-group">
           <label htmlFor="email">Email</label>
-          <input type="email" id="email" className="form-control" required />
+          <input type="email" id="email" className="form-control" placeholder = "Type Your Email Here" required />
         </div>
         <div className="form-group">
           <label htmlFor="message">Message</label>
-          <textarea id="message" className="form-control" rows="4" required />
+          <textarea id="message" className="form-control" rows="4" placeholder = "Type Your Message Here" required />
         </div>
         <button className="btn btn-primary" type="submit">
           {formStatus}
