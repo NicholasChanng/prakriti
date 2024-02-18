@@ -6,6 +6,9 @@ section {
 .container {
   max-width: 1200px;
   margin: auto;
+  @media (width<= 1200px) {
+    max-width: 90dvw;
+  }
 }
 
 :root {

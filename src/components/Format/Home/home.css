@@ -1,6 +1,7 @@
 .mission-statement {
   background-image: url("../../../assets/img/background1.png");
   background-size: cover;
+  background-position: center center;
   height: 600px;
 }
 
@@ -12,6 +13,10 @@
 
 .problem-area {
   display: flex;
+
+  @media (width <= 1200px) {
+    flex-direction: column;
+  }
 }
 
 .problem-description {
@@ -24,6 +29,72 @@
   color: var(--green-400);
 }
 
+.problem-btn {
+  border: 1.75px solid white;
+  border-radius: 10px;
+  padding: 3px;
+  width: fit-content;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--green-800);
+    background-color: white;
+  }
+}
+
 #tree {
   width: 50%;
+  @media (width <= 1200px) {
+    width: 100%;
+  }
+}
+
+.popup {
+  display: flex;
+  position: fixed;
+  z-index: 999999;
+  background-color: var(--green-200);
+  top: calc((100dvh - var(--height)) / 2);
+  left: calc((100dvw - 80dvw) / 2);
+  border-radius: 10px;
+  width: 80dvw;
+  height: 80dvh;
+  --height: 80dvh;
+  box-shadow: 50px 3px 10px 1000px rgb(0 0 0 / 0.8);
+  transition: all 0.5s ease;
+}
+
+.popup.hidden-popup {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.popup.show-popup {
+  visibility: visible;
+  opacity: 1;
+}
+
+.exit {
+  cursor: pointer;
+  font-size: 100px;
+  width: 24.75px;
+  height: 24.75px;
+  translate: 20px 20px;
+}
+
+.x {
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.x.top {
+  transform: rotate(45deg);
+  translate: -3px 10px;
+}
+.x.bottom {
+  transform: rotate(-45deg);
+  translate: -3px 5px;
 }
