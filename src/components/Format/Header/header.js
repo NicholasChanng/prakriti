@@ -19,7 +19,7 @@ export default function Header() {
             Contact
           </Link>
           <a
-            className="navbar-link"
+            className="navbar-link aCool"
             href="https://drive.google.com/drive/folders/1uO0qqN3DEtPRdGpsAcZNp-p2McN1qR02?usp=sharing"
             target="_blank"
             rel="noreferrer"
