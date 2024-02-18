@@ -123,7 +123,7 @@
 
 #fire {
   border-radius: 10px;
-  width: clamp(200px, 65%, 750px);
+  width: clamp(200px, 55%, 750px);
   margin: 0 auto;
   margin-top: 30px;
 
