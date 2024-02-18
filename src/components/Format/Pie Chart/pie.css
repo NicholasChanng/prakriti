@@ -1,9 +1,15 @@
 .pie-container {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   position: relative;
   width: 500px;
+
+  @media (width <= 600px) {
+    flex-direction: column;
+    width: 80dvw;
+  }
 }
 
 .outer {
@@ -45,8 +51,15 @@ circle {
   }
 }
 
+.pie-description {
+  text-align: center;
+}
+
 #pie {
   position: absolute;
   top: 0;
   left: 0;
+  @media (width <= 600px) {
+    left: calc(50% - 80px);
+  }
 }

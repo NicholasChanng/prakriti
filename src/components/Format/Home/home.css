@@ -79,6 +79,7 @@
   place-content: center;
   width: 100%;
   height: 100%;
+  /* transform: translateY(-25px); */
   padding: 40px;
 }
 
@@ -109,16 +110,24 @@
 .popup-description {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  font-size: clamp(10px, 4dvw, 20px);
+  overflow: visible;
 }
 
 .popup-description span {
-  font-size: 40px;
+  font-size: clamp(10px, 5dvw, 30px);
   font-weight: bold;
   color: var(--green-400);
 }
 
 #fire {
   border-radius: 10px;
-  width: clamp(200px, 70%, 750px);
-  margin: 30px auto;
+  width: clamp(200px, 65%, 750px);
+  margin: 0 auto;
+  margin-top: 30px;
+
+  @media (width <= 900px) {
+    display: none;
+  }
 }

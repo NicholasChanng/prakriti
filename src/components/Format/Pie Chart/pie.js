@@ -23,7 +23,9 @@ export default function Pie() {
         </defs>
         <circle cx="80" cy="80" r="70" stroke-linecap="round" />
       </svg>
-      <div>Of Farmers are Unaware of Alternatives Outside of Burning</div>
+      <div className="pie-description">
+        Of Farmers are Unaware of Alternatives Outside of Burning
+      </div>
     </div>
   );
 }
