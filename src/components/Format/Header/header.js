@@ -4,14 +4,15 @@ import "./header.css";
 
 export default function Header() {
   return (
-    <div className="container">
-      <div className="navbar">
+    <div className="container navbar">
+      <div className="navbar-logo">
         <Logo />
         <span>PRAKRITI</span>
-        <div className="navbar-links">
-          <Link>Team</Link>
-          <Link>Contact</Link>
-        </div>
+      </div>
+      <div className="navbar-links">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </div>
   );

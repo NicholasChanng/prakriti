@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font: 400 14px/1.4 "Author", sans-serif;
+  font: 500 20px/1.4 "Author", sans-serif;
+  letter-spacing: 1.2px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--grey-100);
