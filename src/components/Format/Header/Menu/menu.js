@@ -20,6 +20,7 @@ export default function Menu() {
             href="https://drive.google.com/drive/folders/1uO0qqN3DEtPRdGpsAcZNp-p2McN1qR02?usp=sharing"
             target="_blank"
             rel="noreferrer"
+            className="aCool"
           >
             Documentation
           </a>
