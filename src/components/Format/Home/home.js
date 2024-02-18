@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </div>
       <section>
-        <div className="stats-container container">
+        <div data-aos="fade-in" className="stats-container container">
           <Pie />
           <div className="numbers-container">
             <div className="number-stat">
