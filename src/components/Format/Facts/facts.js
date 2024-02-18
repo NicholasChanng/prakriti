@@ -1,8 +1,8 @@
 import "./facts.css";
 
-export default function bigCoin(props){
+export default function BigCoin(props){
   return(
-    <div>
+    <div className="containerF">
       {props.content.map(element => (
         <Facts content={element} />
       ))}
@@ -12,7 +12,7 @@ export default function bigCoin(props){
 
 function Facts(props) {
   return (
-    <div className="containerF">
+    <div>
       {props.content}
     </div>
   );
