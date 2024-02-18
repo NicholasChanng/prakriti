@@ -2,10 +2,6 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Layout from "../src/components/Format/Layout/layout";
 import Home from "./components/Format/Home/home";
-<<<<<<< Updated upstream
-import About from "./components/Format/About/facts";
-=======
->>>>>>> Stashed changes
 import ContactForm from "./components/Format/Contact/contact";
 
 function App() {
