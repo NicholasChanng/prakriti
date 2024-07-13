@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container footer">
         <div className="footer-logo">
           <Logo />
-          <span>PRAKRITI</span>
+          <span>BUMI</span>
         </div>
         <div className="footer-links">
           <div className="pages">
@@ -25,9 +25,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <span className="copyright">
-          &copy;{new Date().getFullYear()} PRAKRITIT
-        </span>
+        <span className="copyright">&copy;{new Date().getFullYear()} BUMI</span>
         <a
           className="github"
           href="https://github.com/NicholasChanng/prakriti"

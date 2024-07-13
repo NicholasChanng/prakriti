@@ -8,7 +8,7 @@ export default function Header() {
     <div className="container navbar">
       <div className="navbar-logo">
         <Logo />
-        <span>PRAKRITI</span>
+        <span>BUMI</span>
       </div>
       <div className="navbar-links">
         <nav>

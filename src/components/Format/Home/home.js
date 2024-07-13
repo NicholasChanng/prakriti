@@ -68,7 +68,7 @@ export default function Home() {
             aware of alternatives.
             <br />
             <br />
-            Prakriti gives farmers this alternative by providing farmers with
+            Bumi gives farmers this alternative by providing farmers with
             knowledge and mycelium to grow and reliably sell rice-straw
             mushrooms with crop residue, a solution proven across Vietnam, the
             Philippines, and Cambodia.
