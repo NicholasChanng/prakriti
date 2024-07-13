@@ -30,9 +30,9 @@ export default function Home() {
               <span>Empowering rural India to protect the air</span>
               <br />
               <br />
-              Prakrati supplies resources for Indian farmers to repurpose rice
-              crop stubble into reliable food sources, reducing smoke pollution
-              from burning crops.
+              Bumi supplies resources for Indian farmers to repurpose rice crop
+              stubble into reliable food sources, reducing smoke pollution from
+              burning crops.
               <br />
               <br />
               <div
