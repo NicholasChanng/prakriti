@@ -30,9 +30,9 @@ export default function Home() {
               <span>Empowering rural India to protect the air</span>
               <br />
               <br />
-              Bumi supplies resources for Indian farmers to repurpose rice crop
-              stubble into reliable food sources, reducing smoke pollution from
-              burning crops.
+              Prakriti supplies resources for Indian farmers to repurpose rice
+              crop stubble into reliable food sources, reducing smoke pollution
+              from burning crops.
               <br />
               <br />
               <div
@@ -68,7 +68,7 @@ export default function Home() {
             aware of alternatives.
             <br />
             <br />
-            Bumi gives farmers this alternative by providing farmers with
+            Prakriti gives farmers this alternative by providing farmers with
             knowledge and mycelium to grow and reliably sell rice-straw
             mushrooms with crop residue, a solution proven across Vietnam, the
             Philippines, and Cambodia.
