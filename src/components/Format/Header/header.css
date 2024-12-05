@@ -1,15 +1,71 @@
 .navbar {
+  position: sticky;
+  top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(164, 172, 134, 1);
+  font-family: "Chillax", sans-serif;
+  z-index: 999;
+
+  background-color: rgb(218, 234, 207, 0.95);
   border-radius: 10px;
 
   padding: 10px;
   margin-top: 20px;
 }
 
-.navbar span {
-  font-family: "Chillax", sans-serif;
-  font-size: 40px;
+.navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-link {
+  @media (width <= 600px) {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.aCool {
+  background-image: linear-gradient(
+    to right,
+    var(--green-400),
+    #000000 50%,
+    #000000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  transition: all ease-in-out 0.5s;
+}
+
+.aCool:hover {
+  background-position: 0;
+}
+
+.aCool:hover::before {
+  width: 100%;
 }

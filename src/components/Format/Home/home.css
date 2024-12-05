@@ -1,0 +1,160 @@
+.mission-statement {
+  background-image: url("../../../assets/img/background1.png");
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+
+.problem-section {
+  background-color: var(--green-800);
+  color: white;
+  padding: 10px;
+}
+
+.problem-area {
+  display: flex;
+
+  @media (width <= 1200px) {
+    flex-direction: column;
+  }
+}
+
+.problem-description {
+  padding: 50px 0;
+}
+
+.problem-description span {
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--green-400);
+}
+
+.problem-btn {
+  border: 1.75px solid white;
+  border-radius: 10px;
+  padding: 3px;
+  width: fit-content;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--green-800);
+    background-color: white;
+  }
+}
+
+#tree {
+  width: 50%;
+  @media (width <= 1200px) {
+    width: 100%;
+  }
+}
+
+.popup {
+  position: fixed;
+  z-index: 999999;
+  background-color: var(--green-200);
+  top: calc((100dvh - var(--height)) / 2);
+  left: calc((100dvw - 80dvw) / 2);
+  border-radius: 10px;
+  width: 80dvw;
+  height: var(--height);
+  --height: 90dvh;
+  box-shadow: 50px 3px 10px 1000px rgb(0 0 0 / 0.8);
+  transition: all 0.5s ease;
+}
+
+.popup.hidden-popup {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.popup.show-popup {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup-container {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  /* transform: translateY(-25px); */
+  padding: 40px;
+}
+
+.exit {
+  cursor: pointer;
+  font-size: 100px;
+  width: 24.75px;
+  height: 24.75px;
+  translate: 20px 20px;
+}
+
+.x {
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.x.top {
+  transform: rotate(45deg);
+  translate: -3px 10px;
+}
+.x.bottom {
+  transform: rotate(-45deg);
+  translate: -3px 5px;
+}
+
+.popup-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: clamp(10px, 4dvw, 20px);
+  overflow: visible;
+}
+
+.popup-description span {
+  font-size: clamp(10px, 5dvw, 30px);
+  font-weight: bold;
+  color: var(--green-400);
+}
+
+#fire {
+  border-radius: 10px;
+  width: clamp(200px, 55%, 750px);
+  margin: 0 auto;
+  margin-top: 30px;
+
+  @media (width <= 900px) {
+    display: none;
+  }
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.numbers-container {
+  display: flex;
+  justify-content: space-between;
+  @media (width <= 600px) {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.number-stat {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+
+.number-stat span {
+  font-size: 40px;
+  color: var(--green-800);
+  font-weight: bold;
+}

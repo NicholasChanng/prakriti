@@ -1,0 +1,14 @@
+.containerF {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    color: var(--green-800);
+    margin: 20px;
+}
+
+.text {
+    border: 5px solid var(--green-200);
+    box-shadow: 0 0 10px var(--green-200);
+    border-radius: 10px;
+    padding: 10px;
+}
